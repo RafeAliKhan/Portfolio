@@ -27,9 +27,9 @@ A fully responsive and modern personal portfolio website to showcase my **projec
 ---
 
 ## 🧰 Tech Stack
-- **Frontend:** HTML, CSS, JavaScript, React *(or your tech stack)*
-- **Styling:** Tailwind CSS / SCSS / Vanilla CSS *(choose one)*
-- **Deployment:** GitHub Pages / Vercel / Netlify
+- **Frontend:** HTML, CSS, JavaScript
+- **Styling:** Tailwind CSS
+- **Deployment:** GitHub Pages / Vercel
 
 ---
 
