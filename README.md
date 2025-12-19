@@ -6,11 +6,6 @@ A fully responsive and modern personal portfolio website to showcase my **projec
 
 ---
 
-## 🌐 Live Demo
-[View Portfolio](YOUR_DEPLOYED_LINK)
-
----
-
 ## 📸 Screenshots
 ![Portfolio Screenshot](assets/screenshot.png)
 
@@ -37,5 +32,4 @@ A fully responsive and modern personal portfolio website to showcase my **projec
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/yourusername/portfolio-website.git
 cd portfolio-website
