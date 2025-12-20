@@ -1,13 +1,7 @@
-# Portfolio
 ####
 # 💼 Personal Portfolio Website
 
 A fully responsive and modern personal portfolio website to showcase my **projects**, **skills**, **certifications**, **work experience**, and **contact information**. Designed with a clean UI, smooth animations, and a **dark/light mode toggle** for an engaging user experience.
-
----
-
-## 📸 Screenshots
-![Portfolio Screenshot](assets/screenshot.png)
 
 ---
 
@@ -27,9 +21,3 @@ A fully responsive and modern personal portfolio website to showcase my **projec
 - **Deployment:** GitHub Pages / Vercel
 
 ---
-
-## 📦 Installation & Setup
-
-1. **Clone the repository**
-```bash
-cd portfolio-website
