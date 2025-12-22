@@ -8,7 +8,6 @@ A fully responsive and modern personal portfolio website to showcase my **projec
 ## ✨ Features
 - 📱 **Responsive Design** – Optimized for all devices
 - 🎨 **Modern UI/UX** – Clean design with smooth animations
-- 🌙 **Dark/Light Mode Toggle**
 - 🛠 **Projects Showcase** – Highlighted with live demo links & GitHub repos
 - 🎓 **Certifications & Skills** – Clearly presented for recruiters
 - 📬 **Contact Form** – Integrated for quick communication
