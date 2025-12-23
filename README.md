@@ -1,22 +1,47 @@
-####
-# 💼 Personal Portfolio Website
+# Portfolio
 
-A fully responsive and modern personal portfolio website to showcase my **projects**, **skills**, **certifications**, **work experience**, and **contact information**. Designed with a clean UI, smooth animations, and a **dark/light mode toggle** for an engaging user experience.
+A modern, clean, and responsive **single-page personal portfolio website** built using **HTML and CSS**.  
+This project is designed to showcase personal information, skills, projects, and contact details in a simple and professional layout.
 
----
-
-## ✨ Features
-- 📱 **Responsive Design** – Optimized for all devices
-- 🎨 **Modern UI/UX** – Clean design with smooth animations
-- 🛠 **Projects Showcase** – Highlighted with live demo links & GitHub repos
-- 🎓 **Certifications & Skills** – Clearly presented for recruiters
-- 📬 **Contact Form** – Integrated for quick communication
+The website is deployed using **GitHub Pages** and is fully customizable.
 
 ---
 
-## 🧰 Tech Stack
-- **Frontend:** HTML & CSS
-- **Styling:** Tailwind CSS
-- **Deployment:** GitHub Page
+## 🌐 Live Demo
+
+👉 https://rafealikhan.github.io/Portfolio/
 
 ---
+
+## 📌 Features
+
+- Single-page layout with smooth scrolling
+- Clean and minimal UI design
+- Fully responsive (desktop & mobile)
+- Resume download button
+- Easy to customize and extend
+- Hosted for free using GitHub Pages
+
+---
+
+## 🛠️ Tech Stack
+
+- **HTML5**
+- **CSS3**
+- **Google Fonts (Poppins)**
+- **GitHub Pages**
+
+---
+
+## 📂 Project Structure
+
+Portfolio/
+├── index.html # Main website file
+├── resume.pdf # Resume (downloadable)
+└── README.md # Project documentation
+
+---
+
+## 📄 License
+
+This project is open-source and available under the **MIT License**.
