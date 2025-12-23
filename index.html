@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Alex James | Web Developer</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: #f9fbfd;
+      color: #222;
+    }
+
+    /* NAVBAR */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      padding: 22px 8%;
+      background: #f9fbfd;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 1000;
+    }
+
+    .logo {
+      font-weight: 700;
+      font-size: 20px;
+    }
+
+    .logo span {
+      color: #4da3ff;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 30px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      font-size: 14px;
+      color: #555;
+    }
+
+    nav ul li a:hover {
+      color: #4da3ff;
+    }
+
+    /* SECTIONS */
+    section {
+      min-height: 100vh;
+      padding: 120px 8%;
+      display: flex;
+      align-items: center;
+    }
+
+    /* HERO */
+    .hero {
+      position: relative;
+    }
+
+    .hero-content {
+      max-width: 520px;
+      z-index: 2;
+    }
+
+    .hello {
+      font-size: 13px;
+      letter-spacing: 2px;
+      color: #888;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      font-size: 52px;
+      font-weight: 700;
+      line-height: 1.1;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 400;
+      color: #6c7a89;
+      margin: 15px 0 25px;
+    }
+
+    .contact span {
+      display: block;
+      font-size: 14px;
+      color: #555;
+      margin-top: 6px;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    .btn {
+      padding: 12px 26px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      margin-right: 15px;
+      display: inline-block;
+    }
+
+    .btn-primary {
+      background: #4da3ff;
+      color: #fff;
+    }
+
+    .btn-outline {
+      border: 1px solid #4da3ff;
+      color: #4da3ff;
+    }
+
+    /* IMAGE */
+    .hero-image {
+      position: absolute;
+      right: 8%;
+      width: 360px;
+      height: 360px;
+      border-radius: 50%;
+      overflow: hidden;
+      background: #000;
+    }
+
+    .hero-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .bg-shape {
+      position: absolute;
+      right: -150px;
+      top: -150px;
+      width: 500px;
+      height: 500px;
+      background: radial-gradient(circle, #dbe9f6, #f9fbfd);
+      border-radius: 50%;
+      z-index: 1;
+    }
+
+    /* SIMPLE CONTENT SECTIONS */
+    .content {
+      max-width: 700px;
+    }
+
+    .content h3 {
+      font-size: 32px;
+      margin-bottom: 20px;
+    }
+
+    .content p {
+      color: #555;
+      line-height: 1.7;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      section {
+        flex-direction: column;
+        text-align: center;
+      }
+
+      .hero-image {
+        position: relative;
+        right: 0;
+        margin-top: 40px;
+      }
+
+      .bg-shape {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo"><span>/A</span> Alex James</div>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home" class="hero">
+    <div class="bg-shape"></div>
+
+    <div class="hero-content">
+      <div class="hello">HELLO, MY NAME IS</div>
+      <h1>Alex James</h1>
+      <h2>Web Developer</h2>
+
+      <div class="contact">
+        <span>📧 alexjames@example.com</span>
+        <span>📞 +91 90000 00000</span>
+      </div>
+
+      <div class="buttons">
+        <a href="resume.pdf" class="btn btn-primary" download>Download Resume</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <!-- Replace later with your own photo -->
+      <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2" alt="Profile">
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="content">
+      <h3>About Me</h3>
+      <p>
+        I am a passionate web developer with a strong interest in building clean,
+        modern, and user-friendly web applications. I enjoy turning ideas into
+        reality using code and continuously learning new technologies.
+      </p>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="content">
+      <h3>Services</h3>
+      <p>
+        Web Development • Responsive Design • Frontend Development •
+        Website Optimization • Portfolio Websites
+      </p>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio">
+    <div class="content">
+      <h3>Portfolio</h3>
+      <p>
+        Projects will be added here. You can showcase GitHub projects,
+        college work, or freelance projects later.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="content">
+      <h3>Contact</h3>
+      <p>
+        📧 alexjames@example.com <br>
+        📞 +91 90000 00000 <br><br>
+        Feel free to reach out for collaborations or opportunities.
+      </p>
+    </div>
+  </section>
+
+</body>
+</html>
