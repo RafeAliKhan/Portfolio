@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter&display=swap');
+
+:root {
+  --bg: #efe4ce;
+  --green: #4c5b4b;
+  --brown: #c2a06f;
+  --text: #f5f1e6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--bg);
+  font-family: 'Inter', sans-serif;
+  padding: 30px;
+}
+
+/* NAVBAR */
+.navbar {
+  background: var(--green);
+  color: var(--text);
+  padding: 20px 30px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar a {
+  color: var(--text);
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.resume-btn {
+  border: 1px solid var(--text);
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+
+/* GRID */
+.grid {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARDS */
+.card {
+  border-radius: 30px;
+  padding: 30px;
+  min-height: 220px;
+}
+
+.hero {
+  background: var(--green);
+  color: var(--text);
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+  grid-column: span 1;
+}
+
+.hero span {
+  font-style: italic;
+}
+
+.profile {
+  background: var(--brown);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 60px;
+  color: var(--text);
+}
+
+.projects {
+  background: var(--green);
+  color: var(--text);
+}
+
+.project {
+  margin-top: 15px;
+  padding-top: 10px;
+  border-top: 1px solid rgba(255,255,255,0.3);
+}
+
+.about {
+  background: var(--green);
+  color: var(--text);
+}
+
+.contact {
+  background: var(--green);
+  color: var(--text);
+}
+
+.contact a {
+  display: block;
+  color: var(--text);
+  margin-top: 10px;
+  text-decoration: none;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+.profile {
+  background: var(--brown);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile img {
+  width: 300px;        /* ⬅ increased */
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 6px solid #f5f1e6;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.25);
+}
+
+.project a {
+  display: inline-block;
+  margin-top: 6px;
+  font-size: 14px;
+  color: #f5f1e6;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.project a:hover {
+  text-decoration: underline;
+}
+.certifications {
+  background: var(--green);
+  color: var(--text);
+}
+
+.certifications ul {
+  margin-top: 15px;
+  padding-left: 18px;
+}
+
+.certifications li {
+  margin-bottom: 8px;
+  font-size: 14px;
+}

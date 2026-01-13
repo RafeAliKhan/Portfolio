@@ -3,282 +3,95 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Rafe Ali Khan | CS-Student</title>
-
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
-
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-      scroll-behavior: smooth;
-    }
-
-    body {
-      background: #e86d15;
-      color: #222;
-    }
-
-    /* NAVBAR */
-    nav {
-      position: fixed;
-      top: 0;
-      width: 100%;
-      padding: 22px 8%;
-      background: #f9fbfd;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      z-index: 1000;
-    }
-
-    .logo {
-      font-weight: 700;
-      font-size: 20px;
-    }
-
-    .logo span {
-      color: #4da3ff;
-    }
-
-    nav ul {
-      list-style: none;
-      display: flex;
-      gap: 30px;
-    }
-
-    nav ul li a {
-      text-decoration: none;
-      font-size: 14px;
-      color: #555;
-    }
-
-    nav ul li a:hover {
-      color: #4da3ff;
-    }
-
-    /* SECTIONS */
-    section {
-      min-height: 100vh;
-      padding: 120px 8%;
-      display: flex;
-      align-items: center;
-    }
-
-    /* HERO */
-    .hero {
-      position: relative;
-    }
-
-    .hero-content {
-      max-width: 520px;
-      z-index: 2;
-    }
-
-    .hello {
-      font-size: 13px;
-      letter-spacing: 2px;
-      color: #888;
-      margin-bottom: 10px;
-    }
-
-    h1 {
-      font-size: 52px;
-      font-weight: 700;
-      line-height: 1.1;
-    }
-
-    h2 {
-      font-size: 20px;
-      font-weight: 400;
-      color: #6c7a89;
-      margin: 15px 0 25px;
-    }
-
-    .contact span {
-      display: block;
-      font-size: 14px;
-      color: #555;
-      margin-top: 6px;
-    }
-
-    .buttons {
-      margin-top: 30px;
-    }
-
-    .btn {
-      padding: 12px 26px;
-      border-radius: 30px;
-      text-decoration: none;
-      font-size: 14px;
-      font-weight: 500;
-      margin-right: 15px;
-      display: inline-block;
-    }
-
-    .btn-primary {
-      background: #4da3ff;
-      color: #fff;
-    }
-
-    .btn-outline {
-      border: 1px solid #4da3ff;
-      color: #4da3ff;
-    }
-
-    /* IMAGE */
-    .hero-image {
-      position: absolute;
-      right: 8%;
-      width: 360px;
-      height: 360px;
-      border-radius: 50%;
-      overflow: hidden;
-      background: #000;
-    }
-
-    .hero-image img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-    }
-
-    .bg-shape {
-      position: absolute;
-      right: -150px;
-      top: -150px;
-      width: 500px;
-      height: 500px;
-      background: radial-gradient(circle, #dbe9f6, #f9fbfd);
-      border-radius: 50%;
-      z-index: 1;
-    }
-
-    /* SIMPLE CONTENT SECTIONS */
-    .content {
-      max-width: 700px;
-    }
-
-    .content h3 {
-      font-size: 32px;
-      margin-bottom: 20px;
-    }
-
-    .content p {
-      color: #555;
-      line-height: 1.7;
-    }
-
-    /* RESPONSIVE */
-    @media (max-width: 900px) {
-      section {
-        flex-direction: column;
-        text-align: center;
-      }
-
-      .hero-image {
-        position: relative;
-        right: 0;
-        margin-top: 40px;
-      }
-
-      .bg-shape {
-        display: none;
-      }
-    }
-  </style>
+  <title>Rafe Ali Khan | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <!-- NAVBAR -->
-  <nav>
-    <div class="logo"><span>/R</span> Rafe Ali Khan</div>
-    <ul>
-      <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#services">Services</a></li>
-      <li><a href="#portfolio">Portfolio</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
+  <header class="navbar">
+    <h1 class="logo">Rafe Ali Khan</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#projects">Work</a>
+      <a href="#contact">Contact</a>
+      <a href="resume.pdf" download class="resume-btn">Resume</a>
+    </nav>
+  </header>
 
-  <!-- HERO -->
-  <section id="home" class="hero">
-    <div class="bg-shape"></div>
+  <!-- MAIN GRID -->
+  <main class="grid">
 
-    <div class="hero-content">
-      <div class="hello">Hello, My Name Is</div>
-      <h1>Rafe Ali Khan</h1>
-      <h2>Computer-Science Student</h2>
+    <!-- HERO -->
+    <section class="card hero">
+      <h2>
+        Crafting digital<br>
+        experiences through<br>
+        <span>innovative design.</span>
+      </h2>
+    </section>
 
-      <div class="contact">
-        <span>📧 Rafek3651@gmail.com</span>
-        <span>📞 +91 90000 00000</span>
-      </div>
+    <!-- PROFILE / INITIAL -->
+    <section class="card profile">
+        <img src="assets/profile.jpg" alt="Your Name">
+    </section>
+  
+    <!-- PROJECTS -->
+<section class="card projects" id="projects">
+  <h3>Featured Projects</h3>
 
-      <div class="buttons">
-        <a href="resume.pdf" class="btn btn-primary" download>Download Resume</a>
-        <a href="#contact" class="btn btn-outline">Contact Me</a>
-      </div>
-    </div>
+  <div class="project">
+    <h4>Portfolio Website</h4>
+    <p>Minimalist design showcase</p>
+    <a href="https://github.com/yourusername/portfolio" target="_blank">
+      View on GitHub →
+    </a>
+  </div>
 
-    <div class="hero-image">
-      <!-- Replace later with your own photo -->
-      <img src="" alt="Profile">
-    </div>
-  </section>
+  <div class="project">
+    <h4>Resume Analyzer</h4>
+    <p>ATS-based resume screening system</p>
+    <a href="https://github.com/yourusername/resume-analyzer" target="_blank">
+      View on GitHub →
+    </a>
+  </div>
+</section>
 
-  <!-- ABOUT -->
-  <section id="about">
-    <div class="content">
+
+    <!-- ABOUT -->
+    <section class="card about" id="about">
       <h3>About Me</h3>
       <p>
-        I am a passionate developer with a strong interest in building clean,
-        modern, and user-friendly web applications. I enjoy turning ideas into
-        reality using code and continuously learning new technologies.
+        I'm a passionate developer focused on building clean,
+        functional, and user-friendly web applications.
+        Skilled in HTML, CSS, JavaScript, and modern tools.
       </p>
-    </div>
-  </section>
+    </section>
 
-  <!-- SERVICES -->
-  <section id="services">
-    <div class="content">
-      <h3>Services</h3>
-      <p>
-        Web Development • Responsive Design • Frontend Development •
-        Website Optimization • Portfolio Websites
-      </p>
-    </div>
-  </section>
+    <!-- CONTACT -->
+    <section class="card contact" id="contact">
+      <h3>Contact Me     |   Phone: +91 8100295314</h3>
 
-  <!-- PORTFOLIO -->
-  <section id="portfolio">
-    <div class="content">
-      <h3>Portfolio</h3>
-      <p>
-        Projects will be added here. You can showcase GitHub projects,
-        college work, or freelance projects later.
-      </p>
-    </div>
-  </section>
+      <a href="https://www.linkedin.com/in/rafe-ali-khan-828b9b331/" target="_blank">LinkedIn</a>
+      <a href="https://github.com/RafeAliKhan" target="_blank">GitHub</a>
+      <a href="mailto:rafek3651@gmail.com">Email</a>
 
-  <!-- CONTACT -->
-  <section id="contact">
-    <div class="content">
-      <h3>Contact</h3>
-      <p>
-        📧 Rafek3651@gmail.com <br>
-        📞 +91 90000 00000 <br><br>
-        Feel free to reach out for collaborations or opportunities.
-      </p>
-    </div>
-  </section>
+      <p> </p>
+    </section>
 
+    <section class="card certifications">
+  <h3>Certifications</h3>
+
+  <ul>
+    <li>Python for Data Science – Coursera</li>
+    <li>Web Development Bootcamp – Udemy</li>
+    <li>SQL Fundamentals – HackerRank</li>
+  </ul>
+</section>
+
+
+  </main>
+
+  <script src="script.js"></script>
 </body>
 </html>
-
-
-
