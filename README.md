@@ -7,7 +7,7 @@ The website is deployed using **GitHub Pages** and is fully customizable.
 
 ---
 
-## 🌐 Live Demo
+## Live
 
 👉 https://rafealikhan.github.io/Portfolio/
 
