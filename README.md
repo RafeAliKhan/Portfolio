@@ -13,6 +13,10 @@ The website is deployed using **GitHub Pages** and is fully customizable.
 
 ---
 
+<img width="1850" height="794" alt="image" src="https://github.com/user-attachments/assets/1eb4bdcd-d059-4793-8feb-75733ccf32eb" />
+
+---
+
 ## 📌 Features
 
 - Single-page layout with smooth scrolling
